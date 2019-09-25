@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 1% 10%;
+  /*position: fixed; /* makes navbar smaller and flex not working*/
+  top: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
