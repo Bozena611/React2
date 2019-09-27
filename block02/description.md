@@ -7,6 +7,7 @@ keyword `this`).
 
 The child component needs to return the following message: "Hello 'the name you passed as a prop', I am  the child component!"
 
+
 ## Exercise 2
 
 Create a parent component inside which you define two arrays of equal length, the first will have 5 firstnames and the second 5 lastnames.
