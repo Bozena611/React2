@@ -6,6 +6,7 @@ Create a brand new React application with 'React create App'. This app needs to 
 
 
 
+
 ## Exercise 2 
 
 - Create a static page that display a list of products.

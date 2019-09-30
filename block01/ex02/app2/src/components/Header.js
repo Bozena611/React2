@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+
 
 class Header extends React.Component {
 	render() {
@@ -13,7 +13,7 @@ class Header extends React.Component {
 						<li>My account</li>
 					</ul>
 					<h1 className ='title'>Our products</h1>
-					<hr/>
+					{/*<hr/>*/}
 				</header>
 			</div>
 			);

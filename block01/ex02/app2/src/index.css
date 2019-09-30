@@ -27,12 +27,31 @@ ul {
 
 .main {
 	text-align: center;
+	/*display: flex;
+	justify-content: space-between;
+	/*grid-template-columns: auto auto auto;
+	grid-template-rows: auto;*/
+
 }
 /*.mainContainer {
 	background-color: #e7dcf6;   how to include title as well
+	display: flex;
+	justify-content: space-between;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
 }*/
 
-
+.sale {
+	color: red;
+	display: inline-block;
+	margin-right: 2em;
+	/*border-style: dashed;		puts a border on other 2 elements as well*/
+	font-size: 0.8em;
+	/*padding: 0.2em;*/
+	-ms-transform: rotate(-12deg);  /*IE 9*/
+  	-webkit-transform: rotate(-12deg);  /*Safari*/ 
+  	transform: rotate(-12deg);
+}
 
 h1 {
 	margin-left: 7em;
@@ -56,10 +75,15 @@ hr {
 }
 
 
-.bestsellers{
+.bestsellers {
 	text-align: center;
 }
 
+/*.best {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+}*/
 footer {
 	background-color: black;
 	color: white;
@@ -67,3 +91,4 @@ footer {
 	padding-top: 2vh;
 	padding-bottom: 1vh;
 }
+
