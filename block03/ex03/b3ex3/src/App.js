@@ -19,11 +19,11 @@ class App extends React.Component {
   }
 
   getData = e => {
-    e.preventDefault()
-    this.getMail()
-    this.getPass()
+    return (
+      "Email: " + this.state.mail + " and password: " + this.state.pass
+      );
+  };
     
-  }
 
   render() {
 

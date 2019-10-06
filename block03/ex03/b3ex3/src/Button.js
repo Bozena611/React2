@@ -1,16 +1,12 @@
 import React from 'react';
-import Email from './Email';
-import Password from './Password'; 
 
 
 
 class Button extends React.Component {
 		
 	handleOnClick = event => {
-		
-		event.preventDefault();
-		alert(this.getData);
-		}
+		alert(this.props.getData());
+		};
 
 	render() {
 		return (
