@@ -41,15 +41,22 @@ ul {
 	grid-template-rows: auto;
 }*/
 
+.mainContainer {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
 .sale {
 	color: red;
 	display: inline-block;
-	margin-right: 2em;
+	/*margin-right: 2em;*/
 	/*border-style: dashed;		puts a border on other 2 elements as well*/
 	font-size: 0.8em;
-	/*padding: 0.2em;*/
+	padding-right: 0.5em;
 	-ms-transform: rotate(-12deg);  /*IE 9*/
-  	-webkit-transform: rotate(-12deg);  /*Safari*/ 
+  	-webkit-transform: rotate(-12deg);  /*Safari */
   	transform: rotate(-12deg);
 }
 

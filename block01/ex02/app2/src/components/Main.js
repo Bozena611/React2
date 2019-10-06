@@ -27,7 +27,7 @@ function Main() { /*why no class App extends React.Component*/
      
        
   return (
-    <div>
+    <div className='mainContainer'>
       {productComponents}
     </div>
   )

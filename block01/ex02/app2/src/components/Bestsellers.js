@@ -18,7 +18,7 @@ function Bestsellers() { /*why no class App extends React.Component*/
   })
 
   return (
-    <div>
+    <div className='mainContainer'>
       {theBest}
     </div>
   )

@@ -1,16 +1,16 @@
 import React from 'react';
 import List from './List';
+import './index.css';
 
 
-class Main extends React.Component {
-  render() {
+function Main () {
+  
     let categories = ["books", "movies", "music", "sports", "art"]
       return (
-          <div>
+          <div className='test'>
             <List category={categories}/>
           </div>
       )
-  }
 }
 
 export default Main;

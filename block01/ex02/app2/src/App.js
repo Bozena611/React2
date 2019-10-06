@@ -5,6 +5,7 @@ import Main from './components/Main';
 import Bestsellers from './components/Bestsellers'; 
 import Footer from './components/Footer';
 
+
 class App extends React.Component{
   render() {
 
@@ -12,7 +13,7 @@ class App extends React.Component{
       <div>
         <Header className='nav'>
         </Header>
-        <div className='mainContainer'>
+        <div>
           <Main/>
         </div>
         <h1 className='bestTitle'>Bestsellers <span>****</span></h1>
