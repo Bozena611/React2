@@ -1,8 +1,11 @@
 import React from 'react';
 
 const Button = (props) => {
-	return <button onClick ={()=>props.getData({data})}> </button>
-
+	return ( 
+		<div>
+		<button onClick ={props.handleSubmit}>Submit</button>
+		</div>
+	);
 }
 
 export default Button;

@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Pass = () => {
+const Pass = (props) => {
 
-	return(
+	return (
 
 		<div>
-			<input 
-			onChange = {handlePassChange}
+			<input onChange = {props.handlePassChange}
             type="text"          
             placeholder="Your password"/> 
         </div>

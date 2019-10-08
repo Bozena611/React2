@@ -12,20 +12,25 @@ const App = () => {
   const handleEmailChange = e => setEmail(e.target.value)
   const handlePassChange = e => setPass(e.target.value)
 
-  getMail = mail => {
+  {/*getMail = mail => {
       console.log ('mail data: ${data}')
   }
 
   getPass = pass => {
     console.log ('pass data: ${pass}')
-  }
+  }*/}
+
+const handleSubmit = event => {
+    alert(`Email: ${email} and Password: ${pass}`);
+  };
+
   return (
 
     <div>
-      <Email />
-      <Password />
+      <Email handleEmailChange= {handleEmailChange}/>
+      <Password handlePassChange={handlePassChange}/>
       {/*<Password {handlePassChange}/>*/}
-      <Button/>
+      <Button handleSubmit={handleSubmit}/>
     </div>
     );
 }
